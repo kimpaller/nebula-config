@@ -26,7 +26,6 @@ zynq-adrv9361-z7035-fmc:
   - monitoring-interface: uart
   downloader-config:
   - reference_boot_folder: zynq-adrv9361-z7035-fmc
-  - hdl_folder: adrv9361z7035_ccfmc_lvds
   driver-config:
   - iio_device_names:
     - ad7291
@@ -58,7 +57,6 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   - monitoring-interface: uart
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-ad9361-fmcomms5
-  - hdl_folder: fmcomms5_zc706
   driver-config:
   - iio_device_names:
     - ad7291
@@ -90,7 +88,6 @@ zynq-zc706-adv7511-fmcdaq2:
   - allow-jtag: false
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-fmcdaq2
-  - hdl_folder: daq2_zc706
   driver-config:
   - iio_device_names:
     - ad7291
@@ -118,7 +115,6 @@ zynq-zed-adrv9002:
   - monitoring-interface: uart
   downloader-config:
   - reference_boot_folder: zynq-zed-adrv9002
-  - hdl_folder: adrv9001_zed
   driver-config:
   - iio_device_names:
     - adrv9002-phy
@@ -150,7 +146,6 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   downloader-config:
   - reference_boot_folder: zynq-zed-adv7511-ad9361-fmcomms2-3-4
   - devicetree_subfolder: zynq-zed-adv7511-ad9361-fmcomms2-3
-  - hdl_folder: fmcomms2_zed
   driver-config:
   - iio_device_names:
     - ad7291
@@ -182,7 +177,6 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   - http_server_ip: 10.48.65.63
   - reference_boot_folder: zynq-zed-adv7511-ad9361-fmcomms2-3-4
   - devicetree_subfolder: zynq-zed-adv7511-ad9364-fmcomms4
-  - hdl_folder: fmcomms2_zed
   driver-config:
   - iio_device_names:
     - ad7291
