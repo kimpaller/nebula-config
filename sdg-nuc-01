@@ -19,7 +19,7 @@ pluto:
   - tftpserverip: 192.168.10.1
   - tftpserverroot: /tftpboot
   uart-config:
-  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.1:1.3
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:7:1.3
   - baudrate: 115200
   - logfilename: pluto.log
 zynq-adrv9361-z7035-fmc:
@@ -237,6 +237,6 @@ zynqmp-zcu102-rev10-adrv9002:
   - pduip: 192.168.10.136
   - outlet: 7
   uart-config:
-  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:7:1.0-port0
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.1:1.0-port0
   - baudrate: 115200
   - logfilename: zynq-zcu102-adrv9002.log
