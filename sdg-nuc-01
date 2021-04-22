@@ -216,6 +216,7 @@ zynqmp-zcu102-rev10-adrv9002:
   - reference_boot_folder: zynqmp-zcu102-rev10-adrv9002
   - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9002
   - boot_subfolder: boot_bin_CMOS
+  - hdl_folder: adrv9001_zcu102
   driver-config:
   - iio_device_names:
     - adrv9002-phy
