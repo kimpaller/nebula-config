@@ -2,6 +2,7 @@ zynq-adrv9361-z7035-fmc:
   board-config:
   - board-name: zynq-adrv9361-z7035-fmc
   - monitoring-interface: uart
+  - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-adrv9361-z7035-fmc
   - hdl_folder: adrv9361z7035_ccfmc_lvds
@@ -36,6 +37,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   board-config:
   - board-name: zynq-zc706-adv7511-ad9361-fmcomms5
   - monitoring-interface: uart
+  - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-ad9361-fmcomms5
   - hdl_folder: fmcomms5_zc706
@@ -67,7 +69,7 @@ zynq-zc706-adv7511-fmcdaq2:
   board-config:
   - board-name: zynq-zc706-adv7511-fmcdaq2
   - monitoring-interface: uart
-  - allow-jtag: False
+  - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-fmcdaq2
   - hdl_folder: daq2_zc706
@@ -98,6 +100,7 @@ zynq-zed-adrv9002:
   board-config:
   - board-name: zynq-zed-adrv9002
   - monitoring-interface: uart
+  - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-zed-adrv9002
   - hdl_folder: adrv9001_zed
@@ -131,6 +134,7 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   board-config:
   - board-name: zynq-zed-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
+  - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-zed-adv7511-ad9361-fmcomms2-3-4
   - devicetree_subfolder: zynq-zed-adv7511-ad9361-fmcomms2-3
@@ -164,6 +168,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   board-config:
   - board-name: zynq-zed-adv7511-ad9364-fmcomms4
   - monitoring-interface: uart
+  - allow-jtag: True
   downloader-config:
   - http_server_ip: 10.48.65.63
   - reference_boot_folder: zynq-zed-adv7511-ad9361-fmcomms2-3-4
@@ -198,6 +203,7 @@ zynqmp-zcu102-rev10-adrv9002:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002
   - monitoring-interface: uart
+  - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynqmp-zcu102-rev10-adrv9002
   - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9002
