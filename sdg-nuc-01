@@ -33,6 +33,7 @@ zynq-adrv9361-z7035-fmc:
   - logfilename: zynq-adrv9361-z7035-fmc.log
   jtag-config:
   - jtag_cable_id: '210299A18443'
+  - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9361-fmcomms5:
   board-config:
   - board-name: zynq-zc706-adv7511-ad9361-fmcomms5
@@ -96,6 +97,7 @@ zynq-zc706-adv7511-fmcdaq2:
   - logfilename: zynq-zc706-adv7511-fmcdaq2.log
   jtag-config:
   - jtag_cable_id: '210251842268'
+  - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adrv9002:
   board-config:
   - board-name: zynq-zed-adrv9002
@@ -130,6 +132,7 @@ zynq-zed-adrv9002:
   - logfilename: zynq-zed-adrv9002.log
   jtag-config:
   - jtag_cable_id: '210248B01F3D'
+  - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad9361-fmcomms2-3:
   board-config:
   - board-name: zynq-zed-adv7511-ad9361-fmcomms2-3
@@ -164,6 +167,7 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   - logfilename: zynq-zed-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
   - jtag_cable_id: '210248571117'
+  - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad9364-fmcomms4:
   board-config:
   - board-name: zynq-zed-adv7511-ad9364-fmcomms4
@@ -199,6 +203,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   - logfilename: zynq-zed-adv7511-ad9361-fmcomms4.log
   jtag-config:
   - jtag_cable_id: '210248584797'
+  - jtag_cpu_target_name: 'ARM*#0'
 zynqmp-zcu102-rev10-adrv9002:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002
@@ -235,4 +240,4 @@ zynqmp-zcu102-rev10-adrv9002:
   - logfilename: zynq-zcu102-adrv9002.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
