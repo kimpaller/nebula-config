@@ -38,7 +38,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   board-config:
   - board-name: zynq-zc706-adv7511-ad9361-fmcomms5
   - monitoring-interface: uart
-  - allow-jtag: True
+  - allow-jtag: False
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-ad9361-fmcomms5
   - hdl_folder: fmcomms5_zc706
