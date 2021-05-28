@@ -66,13 +66,14 @@ zynq-zc706-adv7511-fmcdaq2:
   jtag-config:
   - jtag_cable_id: '210251842268'
   - jtag_cpu_target_name: 'ARM*#0'
-zynq-zed-adrv9002:
+zynq-zed-adv7511-adrv9002:
   board-config:
-  - board-name: zynq-zed-adrv9002
+  - board-name: zynq-zed-adv7511-adrv9002
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
-  - reference_boot_folder: zynq-zed-adrv9002
+  - reference_boot_folder: zynq-zed-adv7511-adrv9002
+  - devicetree_subfolder: zynq-zed-adv7511-adrv9002
   - hdl_folder: adrv9001_zed
   driver-config:
   - iio_device_names:
