@@ -57,7 +57,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   jtag-config:
   - jtag_cable_id: '210251A077E0'
   - jtag_cpu_target_name: 'ARM*#0'
-zynqmp-zcu102-rev10-adrv9002:
+zynqmp-zcu102-rev10-adrv9002-vcmos:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002
   - monitoring-interface: uart
@@ -76,6 +76,111 @@ zynqmp-zcu102-rev10-adrv9002:
     - axi-adrv9002-core-tdd2-lpc
     - axi-adrv9002-tx-lpc
     - axi-adrv9002-tx2-lpc
+  netbox-config:
+  - netbox_server: 10.66.75.19
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.61
+  - dhcp: True
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 7
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynq-zcu102-adrv9002.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
+zynqmp-zcu102-rev10-adrv9002-vlvds:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9002
+  - monitoring-interface: uart
+  - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9002
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9002
+  - boot_subfolder: boot_bin_LVDS
+  - hdl_folder: adrv9001_zcu102_lvds
+  driver-config:
+  - iio_device_names:
+    - adrv9002-phy
+    - axi-adrv9002-rx-lpc
+    - axi-adrv9002-rx2-lpc
+    - axi-adrv9002-core-tdd1-lpc
+    - axi-adrv9002-core-tdd2-lpc
+    - axi-adrv9002-tx-lpc
+    - axi-adrv9002-tx2-lpc
+  netbox-config:
+  - netbox_server: 10.66.75.19
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.61
+  - dhcp: True
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 7
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynq-zcu102-adrv9002.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
+zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2
+  - monitoring-interface: uart
+  - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9002
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9002-rx2tx2
+  - boot_subfolder: boot_bin_CMOS
+  - hdl_folder: adrv9001_zcu102
+  driver-config:
+  - iio_device_names:
+    - adrv9002-phy
+    - axi-adrv9002-rx-lpc
+    - axi-adrv9002-core-tdd1-lpc
+    - axi-adrv9002-tx-lpc
+  netbox-config:
+  - netbox_server: 10.66.75.19
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.61
+  - dhcp: True
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 7
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynq-zcu102-adrv9002.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
+zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2
+  - monitoring-interface: uart
+  - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9002
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9002-rx2tx2
+  - boot_subfolder: boot_bin_LVDS
+  - hdl_folder: adrv9001_zcu102_lvds
+  driver-config:
+  - iio_device_names:
+    - adrv9002-phy
+    - axi-adrv9002-rx-lpc
+    - axi-adrv9002-core-tdd1-lpc
+    - axi-adrv9002-tx-lpc
   netbox-config:
   - netbox_server: 10.66.75.19
   - netbox_server_port: 8000
