@@ -66,6 +66,8 @@ zynq-zc706-adv7511-fmcdaq2:
   jtag-config:
   - jtag_cable_id: '210251842268'
   - jtag_cpu_target_name: 'ARM*#0'
+  noos-config:
+  - noos_folder: ad9361
 zynq-zed-adv7511-adrv9002:
   board-config:
   - board-name: zynq-zed-adv7511-adrv9002
