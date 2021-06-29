@@ -59,7 +59,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   - jtag_cpu_target_name: 'ARM*#0'
 zynqmp-zcu102-rev10-adrv9002-vcmos:
   board-config:
-  - board-name: zynqmp-zcu102-rev10-adrv9002
+  - board-name: zynqmp-zcu102-rev10-adrv9002-vcmos
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -96,7 +96,7 @@ zynqmp-zcu102-rev10-adrv9002-vcmos:
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9002-vlvds:
   board-config:
-  - board-name: zynqmp-zcu102-rev10-adrv9002
+  - board-name: zynqmp-zcu102-rev10-adrv9002-vlvds
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -133,7 +133,7 @@ zynqmp-zcu102-rev10-adrv9002-vlvds:
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   board-config:
-  - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2
+  - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -167,7 +167,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   board-config:
-  - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2
+  - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
