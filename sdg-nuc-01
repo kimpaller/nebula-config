@@ -98,7 +98,7 @@ zynq-zed-adv7511-adrv9002:
   uart-config:
   - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.4:1.0
   - baudrate: 115200
-  - logfilename: zynq-zed-adrv9002.log
+  - logfilename: zynq-zed-adv7511-adrv9002.log
   jtag-config:
   - jtag_cable_id: '210248B01F3D'
   - jtag_cpu_target_name: 'ARM*#0'
@@ -169,7 +169,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   uart-config:
   - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0
   - baudrate: 115200
-  - logfilename: zynq-zed-adv7511-ad9361-fmcomms4.log
+  - logfilename: zynq-zed-adv7511-ad9364-fmcomms4.log
   jtag-config:
   - jtag_cable_id: '210248584797'
   - jtag_cpu_target_name: 'ARM*#0'

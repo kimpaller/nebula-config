@@ -90,7 +90,7 @@ zynqmp-zcu102-rev10-adrv9002:
   uart-config:
   - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
   - baudrate: 115200
-  - logfilename: zynq-zcu102-adrv9002.log
+  - logfilename: zynqmp-zcu102-rev10-adrv9002.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
