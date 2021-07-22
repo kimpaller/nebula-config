@@ -58,7 +58,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   - jtag_cable_id: '210251A077E0'
   - jtag_cpu_target_name: 'ARM*#0'
   noos-config:
-  -noos_folder: ad9361
+  - noos_folder: ad9361
 zynqmp-zcu102-rev10-adrv9002-vcmos:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-vcmos
@@ -97,7 +97,7 @@ zynqmp-zcu102-rev10-adrv9002-vcmos:
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
   noos-config:
-  -noos_folder: adrv9001
+  - noos_folder: adrv9001
 zynqmp-zcu102-rev10-adrv9002-vlvds:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-vlvds
@@ -136,7 +136,7 @@ zynqmp-zcu102-rev10-adrv9002-vlvds:
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
   noos-config:
-  -noos_folder: adrv9001
+  - noos_folder: adrv9001
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos
@@ -172,7 +172,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
   noos-config:
-  -noos_folder: adrv9001
+  - noos_folder: adrv9001
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds
@@ -208,4 +208,4 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
   noos-config:
-  -noos_folder: adrv9001
+  - noos_folder: adrv9001

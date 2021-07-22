@@ -35,7 +35,7 @@ zynq-adrv9361-z7035-fmc:
   - jtag_cable_id: '210299A18443'
   - jtag_cpu_target_name: 'ARM*#0'
   noos-config:
-  -noos_folder: ad9361
+  - noos_folder: ad9361
 zynq-zc706-adv7511-fmcdaq2:
   board-config:
   - board-name: zynq-zc706-adv7511-fmcdaq2
@@ -69,7 +69,7 @@ zynq-zc706-adv7511-fmcdaq2:
   - jtag_cable_id: '210251842268'
   - jtag_cpu_target_name: 'ARM*#0'
   noos-config:
-  -noos_folder: fmcdaq2
+  - noos_folder: fmcdaq2
 zynq-zed-adv7511-ad9361-fmcomms2-3:
   board-config:
   - board-name: zynq-zed-adv7511-ad9361-fmcomms2-3
@@ -106,7 +106,7 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   - jtag_cable_id: '210248571117'
   - jtag_cpu_target_name: 'ARM*#0'
   noos-config:
-  -noos_folder: ad9361
+  - noos_folder: ad9361
 zynq-zed-adv7511-ad9364-fmcomms4:
   board-config:
   - board-name: zynq-zed-adv7511-ad9364-fmcomms4
@@ -144,7 +144,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   - jtag_cable_id: '210248584797'
   - jtag_cpu_target_name: 'ARM*#0'
   noos-config:
-  -noos_folder: ad9361
+  - noos_folder: ad9361
 zynq-zed-adv7511-adrv9002-vcmos:
   board-config:
   - board-name: zynq-zed-adv7511-adrv9002-vcmos
