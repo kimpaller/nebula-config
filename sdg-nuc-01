@@ -132,9 +132,7 @@ zynq-adrv9364-z7020-bob-vcmos:
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
-  - reference_boot_folder: zynq-adrv9364-z7020-bob
-  - devicetree_subfolder: cmos
-  - boot_subfolder: cmos
+  - reference_boot_folder: zynq-adrv9364-z7020-bob-cmos
   - hdl_folder: adrv9364z7020_ccbob_cmos
   driver-config:
   - iio_device_names:
@@ -161,44 +159,6 @@ zynq-adrv9364-z7020-bob-vcmos:
   - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
   - baudrate: 115200
   - logfilename: zynq-adrv9364-z7020-bob-vcmos.log
-  jtag-config:
-  - jtag_cable_id: '210299B1A542'
-  - jtag_cpu_target_name: 'ARM*#0'
-zynq-adrv9364-z7020-bob-vlvds:
-  board-config:
-  - board-name: zynq-adrv9364-z7020-bob-vlvds
-  - monitoring-interface: uart
-  - allow-jtag: True
-  downloader-config:
-  - reference_boot_folder: zynq-adrv9364-z7020-bob
-  - devicetree_subfolder: lvds
-  - boot_subfolder: lvds
-  - hdl_folder: adrv9364z7020_ccbob_lvds
-  driver-config:
-  - iio_device_names:
-    - ad7291
-    - ad7291-bob
-    - ad9361-phy
-    - cf-ad9361-lpc
-    - cf-ad9361-dds-core-lpc
-  netbox-config:
-  - netbox_server: 10.116.171.86
-  - netbox_server_port: 8000
-  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
-  network-config:
-  - dutip: 192.168.10.70
-  - dhcp: False
-  pdu-config:
-  - pdu_type: cyberpower
-  - pduip: 192.168.10.136
-  - outlet: 4
-  system-config:
-  - tftpserverip: 192.168.10.1
-  - tftpserverroot: /var/lib/tftpboot
-  uart-config:
-  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
-  - baudrate: 115200
-  - logfilename: zynq-adrv9364-z7020-bob-vlvds.log
   jtag-config:
   - jtag_cable_id: '210299B1A542'
   - jtag_cpu_target_name: 'ARM*#0'
