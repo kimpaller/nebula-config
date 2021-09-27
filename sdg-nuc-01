@@ -15,6 +15,9 @@ pluto:
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
   - dutip: 192.168.2.1
+  jira-config:
+  - carrier:  xxx
+  - daughter: Pluto
   system-config:
   - tftpserverip: 192.168.10.1
   - tftpserverroot: /tftpboot
@@ -45,6 +48,9 @@ zynq-zc706-adv7511-fmcomms11:
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
+  jira-config:
+  - carrier: ZC706
+  - daughter: FMCOMSS11
   pdu-config:
   - pdu_type: cyberpower
   - pduip: 192.168.10.136
@@ -77,6 +83,9 @@ zynq-zed-adv7511-ad7768-1-evb:
   network-config:
   - dutip: 192.168.10.102
   - dhcp: False
+  jira-config:
+  - carrier: ZED
+  - daughter: AD7768-1-EVB
   pdu-config:
   - pdu_type: cyberpower
   - pduip: 192.168.10.136
@@ -115,6 +124,9 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   network-config:
   - dutip: 192.168.10.103
   - dhcp: True
+  jira-config:
+  - carrier: ZC702
+  - daughter: FMCOMMS2-3
   pdu-config:
   - pdu_type: cyberpower
   - pduip: 192.168.10.136
@@ -149,6 +161,9 @@ zynq-adrv9364-z7020-bob-vcmos:
   network-config:
   - dutip: 192.168.10.104
   - dhcp: False
+  jira-config:
+  - carrier: Z7020
+  - daughter: ADRV9364-BOB-CMOS
   pdu-config:
   - pdu_type: cyberpower
   - pduip: 192.168.10.136
@@ -219,6 +234,9 @@ zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4:
   network-config:
   - dutip: 192.168.10.105
   - dhcp: True
+  jira-config:
+  - carrier: ZCU102
+  - daughter: AD9172-FMC-EVB
   pdu-config:
   - pdu_type: cyberpower
   - pduip: 192.168.10.136
@@ -251,6 +269,9 @@ zynqmp-zcu102-rev10-fmcdaq3:
   network-config:
   - dutip: 192.168.10.106
   - dhcp: True
+  jira-config:
+  - carrier: ZCU102
+  - daughter: FMCDAQ3
   pdu-config:
   - pdu_type: cyberpower
   - pduip: 192.168.10.136
