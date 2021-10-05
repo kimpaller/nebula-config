@@ -126,9 +126,9 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   jtag-config:
   - jtag_cable_id: '210203A0FD2CA'
   - jtag_cpu_target_name: 'ARM*#0'
-zynq-adrv9364-z7020-bob-vcmos:
+zynq-adrv9364-z7020-bob-cmos:
   board-config:
-  - board-name: zynq-adrv9364-z7020-bob-vcmos
+  - board-name: zynq-adrv9364-z7020-bob-cmos
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
