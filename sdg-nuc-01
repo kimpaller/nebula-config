@@ -89,7 +89,7 @@ zynq-zed-adv7511-ad7768-1-evb:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-ad7768-1-evb.log
   jtag-config:
-  - jtag_cable_id: '210248470037'
+  - jtag_cable_id: '210248B01F4B'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc702-adv7511-ad9361-fmcomms2-3:
   board-config:
