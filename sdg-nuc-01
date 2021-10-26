@@ -66,7 +66,7 @@ zynq-zed-adv7511-ad7768-1-evb:
   - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-zed-adv7511-ad7768-1-evb
-  - hdl_folder: ad7768evb_zed
+  - hdl_folder: ad77681evb_zed
   driver-config:
   - iio_device_names:
     - xxx
