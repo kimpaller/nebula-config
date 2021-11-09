@@ -3,6 +3,7 @@ rpi-04-modelb-2fde4180:
   - board-name: rpi-04-modelb-2fde4180
   - monitoring-interface: uart
   - serial-id: 2fde4180
+  - soc: bcm2711
   netbox-config:
   - netbox_server: 10.116.171.86
   - netbox_server_port: 8000
@@ -16,9 +17,11 @@ rpi-04-modelb-2fde4180:
   - logfilename: rpi-01.log
 rpi-4-modb-11a43152-eval-adxrs290-pmdz:
   board-config:
-  - board-name: rpi-4-modb-11a43152-eval-adxrs290-pmdz
+  - board-name: eval-adxrs290-pmdz
   - monitoring-interface: uart
   - serial-id: 11a43152
+  - soc: bcm2711
+  - overlay:  rpi-adxrs290
   netbox-config:
   - netbox_server: 10.116.171.86
   - netbox_server_port: 8000
@@ -32,9 +35,11 @@ rpi-4-modb-11a43152-eval-adxrs290-pmdz:
   - logfilename: rpi-4-modb-11a43152-eval-adxrs290-pmdz.log
 rpi-4-modb-11a43152-eval-cn0552-pmdz:
   board-config:
-  - board-name: rpi-4-modb-11a43152-eval-cn0552-pmdz
+  - board-name: eval-cn0552-pmdz
   - monitoring-interface: uart
   - serial-id: 11a43152
+  - soc: bcm2711
+  - overlay:  rpi-cn0552
   netbox-config:
   - netbox_server: 10.116.171.86
   - netbox_server_port: 8000
@@ -46,4 +51,3 @@ rpi-4-modb-11a43152-eval-cn0552-pmdz:
   - address: /dev/serial/by-path/platform-3f980000.usb-usb-0:1.1.2:1.0-port0
   - baudrate: 115200
   - logfilename: rpi-4-modb-11a43152-eval-cn0552-pmdz.log
-
