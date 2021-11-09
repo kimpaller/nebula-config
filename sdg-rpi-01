@@ -22,6 +22,9 @@ rpi-4-modb-11a43152-eval-adxrs290-pmdz:
   - serial-id: 11a43152
   - soc: bcm2711
   - overlay:  rpi-adxrs290
+  driver-config:
+  - iio_device_names:
+    - adxrs290
   netbox-config:
   - netbox_server: 10.116.171.86
   - netbox_server_port: 8000
