@@ -5,7 +5,7 @@ pluto:
   - monitoring-interface: uart
   driver-config:
   - iio_device_names:
-    - adm1177
+    - adm1177-iio
     - ad9361-phy
     - cf-ad9361-dds-core-lpc
     - cf-ad9361-lpc
