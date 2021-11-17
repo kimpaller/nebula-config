@@ -222,5 +222,5 @@ zynqmp-zcu102-rev10-fmcdaq3:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-fmcdaq3.log
   jtag-config:
-  - jtag_cable_id: '210308A1CE81'
+  - jtag_cable_id: '210308AE6A13'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
