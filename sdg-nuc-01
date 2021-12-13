@@ -1,4 +1,4 @@
-rpi-4-b-2fde4180-adis16480:
+rpi-4-b-2fde4180-adis16480bmlz:
   board-config:
   - board-name: adis16480bmlz
   # - monitoring-interface: uart
