@@ -1,6 +1,6 @@
 rpi-4-b-2fde4180-adis16480:
   board-config:
-  - board-name: adis16480
+  - board-name: adis16480bmlz
   # - monitoring-interface: uart
   - serial-id: 2fde4180
   - soc: bcm2711
