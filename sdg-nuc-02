@@ -42,7 +42,7 @@ zynq-zed-adv7511-adrv9002-vcmos:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.57
+  - dutip: 192.168.10.107
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -75,7 +75,7 @@ zynq-zed-adv7511-adrv9002-rx2tx2-vcmos:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.57
+  - dutip: 192.168.10.107
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -110,7 +110,7 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.58
+  - dutip: 192.168.10.108
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -146,7 +146,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.56
+  - dutip: 192.168.10.109
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -179,7 +179,7 @@ zynq-adrv9361-z7035-fmc:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.55
+  - dutip: 192.168.10.110
   - dhcp: False
   pdu-config:
   - pdu_type: cyberpower
@@ -214,7 +214,7 @@ zynq-zc706-adv7511-fmcdaq2:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.54
+  - dutip: 192.168.10.113
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -249,7 +249,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.59
+  - dutip: 192.168.10.111
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -286,7 +286,7 @@ zynqmp-zcu102-rev10-adrv9002-vcmos:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.60
+  - dutip: 192.168.10.112
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -323,7 +323,7 @@ zynqmp-zcu102-rev10-adrv9002-vlvds:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.60
+  - dutip: 192.168.10.112
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -357,7 +357,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.60
+  - dutip: 192.168.10.112
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
@@ -391,7 +391,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   - netbox_server_port: 8000
   - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
   network-config:
-  - dutip: 192.168.10.60
+  - dutip: 192.168.10.112
   - dhcp: True
   pdu-config:
   - pdu_type: cyberpower
