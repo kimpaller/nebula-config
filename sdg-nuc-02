@@ -22,6 +22,8 @@ m2k:
 zynq-zed-adv7511-adrv9002-vcmos:
   board-config:
   - board-name: zynq-zed-adv7511-adrv9002-vcmos
+  - carrier: ZED
+  - daughter: ADRV9002-CMOS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -58,6 +60,8 @@ zynq-zed-adv7511-adrv9002-vcmos:
 zynq-zed-adv7511-adrv9002-rx2tx2-vcmos:
   board-config:
   - board-name: zynq-zed-adv7511-adrv9002-rx2tx2-vcmos
+  - carrier: ZED
+  - daughter: ADRV9002-RX2TX2
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -91,6 +95,8 @@ zynq-zed-adv7511-adrv9002-rx2tx2-vcmos:
 zynq-zed-adv7511-ad9361-fmcomms2-3:
   board-config:
   - board-name: zynq-zed-adv7511-ad9361-fmcomms2-3
+  - carrier: ZED
+  - daughter: FMCOMMS2-3
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -126,6 +132,8 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
 zynq-zed-adv7511-ad9364-fmcomms4:
   board-config:
   - board-name: zynq-zed-adv7511-ad9364-fmcomms4
+  - carrier: ZED
+  - daughter: FMCOMMS4
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -162,6 +170,8 @@ zynq-zed-adv7511-ad9364-fmcomms4:
 zynq-adrv9361-z7035-fmc:
   board-config:
   - board-name: zynq-adrv9361-z7035-fmc
+  - carrier: xxx
+  - daughter: ADRV9361-FMC
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -198,6 +208,8 @@ zynq-adrv9361-z7035-fmc:
 zynq-zc706-adv7511-fmcdaq2:
   board-config:
   - board-name: zynq-zc706-adv7511-fmcdaq2
+  - carrier: ZC706
+  - daughter: FMCDAQ2
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -230,6 +242,8 @@ zynq-zc706-adv7511-fmcdaq2:
 zynq-zc706-adv7511-ad9361-fmcomms5:
   board-config:
   - board-name: zynq-zc706-adv7511-ad9361-fmcomms5
+  - carrier: ZC706
+  - daughter: FMCOMMS5
   - monitoring-interface: uart
   - allow-jtag: False
   downloader-config:
@@ -265,6 +279,8 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
 zynqmp-zcu102-rev10-adrv9002-vcmos:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-vcmos
+  - carrier: ZCU102
+  - daughter: ADRV9002-CMOS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -302,6 +318,8 @@ zynqmp-zcu102-rev10-adrv9002-vcmos:
 zynqmp-zcu102-rev10-adrv9002-vlvds:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-vlvds
+  - carrier: ZCU102
+  - daughter: ADRV9002-LVDS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -339,6 +357,8 @@ zynqmp-zcu102-rev10-adrv9002-vlvds:
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos
+  - carrier: ZCU102
+  - daughter: ADRV9002-RX2TX2-CMOS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -373,6 +393,8 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds
+  - carrier: ZED
+  - daughter: ADRV9002-RX2TX2-LVDS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
