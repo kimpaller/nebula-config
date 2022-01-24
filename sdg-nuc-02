@@ -33,8 +33,8 @@ zynq-zed-adv7511-adrv9002-vcmos:
     - adrv9002-phy
     - axi-adrv9002-rx-lpc
     - axi-adrv9002-rx2-lpc
-    - axi-adrv9002-core-tdd1-lpc
-    - axi-adrv9002-core-tdd2-lpc
+    - axi-core-tdd-1
+    - axi-core-tdd-2
     - axi-adrv9002-tx-lpc
     - axi-adrv9002-tx2-lpc
   netbox-config:
@@ -68,7 +68,7 @@ zynq-zed-adv7511-adrv9002-rx2tx2-vcmos:
   - iio_device_names:
     - adrv9002-phy
     - axi-adrv9002-rx-lpc
-    - axi-adrv9002-core-tdd1-lpc
+    - axi-adrv9002-core-tdd-lpc
     - axi-adrv9002-tx-lpc
   netbox-config:
   - netbox_server: 10.116.171.86
@@ -277,8 +277,8 @@ zynqmp-zcu102-rev10-adrv9002-vcmos:
     - adrv9002-phy
     - axi-adrv9002-rx-lpc
     - axi-adrv9002-rx2-lpc
-    - axi-adrv9002-core-tdd1-lpc
-    - axi-adrv9002-core-tdd2-lpc
+    - axi-core-tdd-1
+    - axi-core-tdd-2
     - axi-adrv9002-tx-lpc
     - axi-adrv9002-tx2-lpc
   netbox-config:
@@ -314,8 +314,8 @@ zynqmp-zcu102-rev10-adrv9002-vlvds:
     - adrv9002-phy
     - axi-adrv9002-rx-lpc
     - axi-adrv9002-rx2-lpc
-    - axi-adrv9002-core-tdd1-lpc
-    - axi-adrv9002-core-tdd2-lpc
+    - axi-core-tdd-1
+    - axi-core-tdd-2
     - axi-adrv9002-tx-lpc
     - axi-adrv9002-tx2-lpc
   netbox-config:
@@ -350,7 +350,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
   - iio_device_names:
     - adrv9002-phy
     - axi-adrv9002-rx-lpc
-    - axi-adrv9002-core-tdd1-lpc
+    - axi-adrv9002-core-tdd-lpc
     - axi-adrv9002-tx-lpc
   netbox-config:
   - netbox_server: 10.116.171.86
@@ -384,7 +384,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   - iio_device_names:
     - adrv9002-phy
     - axi-adrv9002-rx-lpc
-    - axi-adrv9002-core-tdd1-lpc
+    - axi-adrv9002-core-tdd-lpc
     - axi-adrv9002-tx-lpc
   netbox-config:
   - netbox_server: 10.116.171.86
