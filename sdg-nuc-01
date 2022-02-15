@@ -77,6 +77,7 @@ zynq-adrv9364-z7020-bob-vcmos:
   - reference_boot_folder: zynq-adrv9364-z7020-bob
   - devicetree_subfolder: cmos
   - boot_subfolder: cmos
+  - hdl_folder: adrv9364z7020_ccbob_cmos
   driver-config:
   - iio_device_names:
     - ad7291
@@ -116,6 +117,7 @@ zynq-adrv9364-z7020-bob-vlvds:
   - reference_boot_folder: zynq-adrv9364-z7020-bob
   - devicetree_subfolder: lvds
   - boot_subfolder: lvds
+  - hdl_folder: adrv9364z7020_ccbob_lvds
   driver-config:
   - iio_device_names:
     - ad7291
