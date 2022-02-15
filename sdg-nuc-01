@@ -3,7 +3,7 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   - board-name: zynq-zc702-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad9361
+  - no-os-project: ad9361
   - example: dma-example
   downloader-config:
   - hdl_folder: fmcomms2_zc702
@@ -35,7 +35,7 @@ zynq-zed-adv7511-ad7768-1-evb:
   - board-name: zynq-zed-adv7511-ad7768-1-evb
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad7768-1fmcz
+  - no-os-project: ad7768-1fmcz
   - example: spi_engine_offload
   downloader-config:
   - reference_boot_folder: zynq-zed-adv7511-ad7768-1-evb
@@ -71,7 +71,7 @@ zynq-adrv9364-z7020-bob-vcmos:
   - daughter: ADRV9364-BOB-CMOS  
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad9361
+  - no-os-project: ad9361
   - example: iio
   downloader-config:
   - reference_boot_folder: zynq-adrv9364-z7020-bob
@@ -153,7 +153,7 @@ zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4:
   - daughter: AD9172-FMC-EVB  
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad9172
+  - no-os-project: ad9172
   - example: iio
   downloader-config:
   - reference_boot_folder: zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4
@@ -187,7 +187,7 @@ zynqmp-zcu102-rev10-fmcdaq3:
   - daughter: FMCDAQ3
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: fmcdaq3
+  - no-os-project: fmcdaq3
   - example: iio
   downloader-config:
   - reference_boot_folder: zynqmp-zcu102-rev10-fmcdaq3

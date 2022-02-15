@@ -3,7 +3,7 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   - board-name: zynq-zed-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad9361
+  - no-os-project: ad9361
   - example: iio
   downloader-config:
   - hdl_folder: fmcomms2_zed
@@ -40,7 +40,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   - daughter: FMCOMMS4
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad9361
+  - no-os-project: ad9361
   - example: iio
   downloader-config:
   - http_server_ip: 10.48.65.63
@@ -80,7 +80,7 @@ zynq-adrv9361-z7035-fmc:
   - daughter: ADRV9361-FMC
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: ad9361
+  - no-os-project: ad9361
   - example: iio
   downloader-config:
   - reference_boot_folder: zynq-adrv9361-z7035-fmc
@@ -118,7 +118,7 @@ zynq-zc706-adv7511-fmcdaq2:
   - board-name: zynq-zc706-adv7511-fmcdaq2
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: fmcdaq2
+  - no-os-project: fmcdaq2
   - example: iio
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-fmcdaq2
@@ -152,7 +152,7 @@ zynq-zc706-adv7511-ad9361-fmcomms5:
   - board-name: zynq-zc706-adv7511-ad9361-fmcomms5
   - monitoring-interface: uart
   - allow-jtag: False
-  - noos_project: ad9361
+  - no-os-project: ad9361
   - example: iio_fmcomms5
   downloader-config:
   - reference_boot_folder: zynq-zc706-adv7511-ad9361-fmcomms5
@@ -191,7 +191,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2:
   - daughter: ADRV9002-CMOS
   - monitoring-interface: uart
   - allow-jtag: True
-  - noos_project: adrv9001
+  - no-os-project: adrv9001
   - example: iio_adrv9002
   downloader-config:
   - reference_boot_folder: zynqmp-zcu102-rev10-adrv9002
