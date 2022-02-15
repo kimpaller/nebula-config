@@ -3,7 +3,8 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   - board-name: zynq-zc702-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
-  - no-os-project: ad9361
+  - noos_project: ad9361
+  - example: dma-example
   downloader-config:
   - hdl_folder: fmcomms2_zc702
   driver-config:
@@ -28,4 +29,188 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   - logfilename: zynq-zc702-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
   - jtag_cable_id: '210203A0FD2CA'
+  - jtag_cpu_target_name: 'ARM*#0'zynq-zed-adv7511-ad7768-1-evb:
+zynq-zed-adv7511-ad7768-1-evb:  
+  board-config:
+  - board-name: zynq-zed-adv7511-ad7768-1-evb
+  - monitoring-interface: uart
+  - allow-jtag: True
+  - noos_project: ad7768-1fmcz
+  - example: spi_engine_offload
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad7768-1-evb
+  - hdl_folder: ad77681evb_zed
+  driver-config:
+  - iio_device_names:
+    - xxx
+  netbox-config:
+  - netbox_server: 10.116.171.86
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.102
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 2
+  system-config:
+  - tftpserverip: 192.168.10.1
+  - tftpserverroot: /var/lib/tftpboot
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.4:1.0
+  - baudrate: 115200
+  - logfilename: zynq-zed-adv7511-ad7768-1-evb.log
+  jtag-config:
+  - jtag_cable_id: '210248B01F4B'
   - jtag_cpu_target_name: 'ARM*#0'
+zynq-adrv9364-z7020-bob-vcmos:
+  board-config:
+  - board-name: zynq-adrv9364-z7020-bob-vcmos
+  - carrier: Z7020
+  - daughter: ADRV9364-BOB-CMOS  
+  - monitoring-interface: uart
+  - allow-jtag: True
+  - noos_project: ad9361
+  - example: iio
+  downloader-config:
+  - reference_boot_folder: zynq-adrv9364-z7020-bob
+  - devicetree_subfolder: cmos
+  - boot_subfolder: cmos
+  driver-config:
+  - iio_device_names:
+    - ad7291
+    - ad7291-bob
+    - ad9361-phy
+    - cf-ad9361-lpc
+    - cf-ad9361-dds-core-lpc
+  netbox-config:
+  - netbox_server: 10.116.171.86
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.104
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 4
+  system-config:
+  - tftpserverip: 192.168.10.1
+  - tftpserverroot: /var/lib/tftpboot
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynq-adrv9364-z7020-bob-vcmos.log
+  jtag-config:
+  - jtag_cable_id: '210299B1A542'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynq-adrv9364-z7020-bob-vlvds:
+  board-config:
+  - board-name: zynq-adrv9364-z7020-bob-vlvds
+  - monitoring-interface: uart
+  - allow-jtag: True
+  - noos_project: ad9361
+  - example: iio
+  downloader-config:
+  - reference_boot_folder: zynq-adrv9364-z7020-bob
+  - devicetree_subfolder: lvds
+  - boot_subfolder: lvds
+  driver-config:
+  - iio_device_names:
+    - ad7291
+    - ad7291-bob
+    - ad9361-phy
+    - cf-ad9361-lpc
+    - cf-ad9361-dds-core-lpc
+  netbox-config:
+  - netbox_server: 10.116.171.86
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.104
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 4
+  system-config:
+  - tftpserverip: 192.168.10.1
+  - tftpserverroot: /var/lib/tftpboot
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.2:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynq-adrv9364-z7020-bob-vlvds.log
+  jtag-config:
+  - jtag_cable_id: '210299B1A542'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4
+  - carrier: ZCU102
+  - daughter: AD9172-FMC-EVB  
+  - monitoring-interface: uart
+  - allow-jtag: True
+  - noos_project: ad9172
+  - example: iio
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4
+  - hdl_folder: dac_fmc_ebz_zcu102
+  driver-config:
+  - iio_device_names:
+    - hmc7044
+    - axi-ad9172-hpc
+  netbox-config:
+  - netbox_server: 10.116.171.86
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.105
+  - dhcp: True
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 5
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.1:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9172-fmc-ebz-mode4.log
+  jtag-config:
+  - jtag_cable_id: '210308AE59AA'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
+zynqmp-zcu102-rev10-fmcdaq3:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-fmcdaq3
+  - carrier: ZCU102
+  - daughter: FMCDAQ3
+  - monitoring-interface: uart
+  - allow-jtag: True
+  - noos_project: fmcdaq3
+  - example: iio
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-fmcdaq3
+  - hdl_folder: daq3_zcu102
+  driver-config:
+  - iio_device_names:
+    - ad9528
+    - ad7291
+    - axi-ad9680-hpc
+    - axi-ad9152-hpc
+  netbox-config:
+  - netbox_server: 10.116.171.86
+  - netbox_server_port: 8000
+  - netbox_api_token: 0123456789abcdef0123456789abcdef01234567
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: True
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0 
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-fmcdaq3.log
+  jtag-config:
+  - jtag_cable_id: '210308AE6A13'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
