@@ -40,6 +40,8 @@ zynq-zed-adv7511-ad9364-fmcomms4:
   - daughter: FMCOMMS4
   - monitoring-interface: uart
   - allow-jtag: True
+  - noos_project: ad9361
+  - example: iio
   downloader-config:
   - http_server_ip: 10.48.65.63
   - reference_boot_folder: zynq-zed-adv7511-ad936x-fmcomms2-3-4
@@ -78,6 +80,8 @@ zynq-adrv9361-z7035-fmc:
   - daughter: ADRV9361-FMC
   - monitoring-interface: uart
   - allow-jtag: True
+  - noos_project: ad9361
+  - example: iio
   downloader-config:
   - reference_boot_folder: zynq-adrv9361-z7035-fmc
   - hdl_folder: adrv9361z7035_ccfmc_lvds
