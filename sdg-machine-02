@@ -18,8 +18,12 @@ vc707-fmcomms3:
   network-config:	
   - dutip: 192.168.10.113	
   - dhcp: True	
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.136
+  - outlet: 8
   uart-config:	
-  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:6:1.0-port0	
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:11:1.0-port0
   - baudrate: 115200	
   - logfilename: vc707-fmcomms3.log	
   jtag-config:	
