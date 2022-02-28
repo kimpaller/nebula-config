@@ -4,8 +4,8 @@ vc707-fmcomms3:
   - monitoring-interface: uart
   - allow-jtag: True
   - no-os-project: ad9361
- downloader-config:
- - hdl_folder: fmcomms2_vc707
+  downloader-config:
+  - hdl_folder: fmcomms2_vc707
   driver-config:
   - iio_device_names:
     - ad9361-phy
