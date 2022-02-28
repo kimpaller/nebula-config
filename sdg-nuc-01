@@ -112,8 +112,6 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   - iio_device_names:
     - ad7291
     - ad9361-phy
-    - adf4351-udc-tx-pmod
-    - adf4351-udc-rx-pmod
     - cf-ad9361-dds-core-lpc
     - cf-ad9361-lpc
   netbox-config:
