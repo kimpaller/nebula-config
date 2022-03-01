@@ -1,6 +1,6 @@
-vc707-fmcomms3:
+vc707_fmcomms2-3:
   board-config:
-  - board-name: vc707-fmcomms3
+  - board-name: vc707_fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
   - no-os-project: ad9361
