@@ -138,7 +138,7 @@ zynq-adrv9364-z7020-bob-vcmos:
   board-config:
   - board-name: zynq-adrv9364-z7020-bob-vcmos
   - carrier: ADRV1CRR-BOB
-  - daughter: ADRV9364-BOB-CMOS  
+  - daughter: ADRV9364-BOB-CMOS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -177,6 +177,8 @@ zynq-adrv9364-z7020-bob-vcmos:
 zynq-adrv9364-z7020-bob-vlvds:
   board-config:
   - board-name: zynq-adrv9364-z7020-bob-vlvds
+  - carrier: ADRV1CRR-BOB
+  - daughter: ADRV9364-BOB-LVDS  
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
