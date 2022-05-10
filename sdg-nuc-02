@@ -1,6 +1,8 @@
 m2k:
   board-config:
   - board-name: m2k
+  - carrier: ADALM-2000
+  - daugther: xxx
   - reference-boot-folder: m2k-fw
   - monitoring-interface: uart
   driver-config:
@@ -166,7 +168,7 @@ zynq-zed-adv7511-ad9364-fmcomms4:
 zynq-adrv9361-z7035-fmc:
   board-config:
   - board-name: zynq-adrv9361-z7035-fmc
-  - carrier: xxx
+  - carrier: ADRV1CRR-FMC
   - daughter: ADRV9361-FMC
   - monitoring-interface: uart
   - allow-jtag: True
@@ -389,7 +391,7 @@ zynqmp-zcu102-rev10-adrv9002-rx2tx2-vcmos:
 zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9002-rx2tx2-vlvds
-  - carrier: ZED
+  - carrier: ZCU102
   - daughter: ADRV9002-RX2TX2-LVDS
   - monitoring-interface: uart
   - allow-jtag: True

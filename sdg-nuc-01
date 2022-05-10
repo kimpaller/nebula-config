@@ -1,8 +1,8 @@
 pluto:
   board-config:
   - board-name: pluto
-  - carrier:  xxx
-  - daughter: Pluto  
+  - carrier:  ADALM-PLUTO
+  - daughter: xxx  
   - reference-boot-folder: plutosdr-fw
   - monitoring-interface: uart
   driver-config:
@@ -135,8 +135,8 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
 zynq-adrv9364-z7020-bob-vcmos:
   board-config:
   - board-name: zynq-adrv9364-z7020-bob-vcmos
-  - carrier: Z7020
-  - daughter: ADRV9364-BOB-CMOS  
+  - carrier: ADRV1CRR-BOB
+  - daughter: ADRV9364-BOB-CMOS
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
@@ -175,6 +175,8 @@ zynq-adrv9364-z7020-bob-vcmos:
 zynq-adrv9364-z7020-bob-vlvds:
   board-config:
   - board-name: zynq-adrv9364-z7020-bob-vlvds
+  - carrier: ADRV1CRR-BOB
+  - daughter: ADRV9364-BOB-LVDS  
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
