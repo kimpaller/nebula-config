@@ -21,7 +21,7 @@ pluto:
   - tftpserverip: 192.168.10.1
   - tftpserverroot: /tftpboot
   uart-config:
-  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:6:1.3
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.3
   - baudrate: 115200
   - logfilename: pluto.log
 zynq-zc706-adv7511-fmcomms11:
