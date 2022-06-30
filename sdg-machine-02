@@ -89,7 +89,7 @@ zynq-zc706-adv7511-ad9361-fmcomms2-3:
   - outlet: 4
   uart-config:
   - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:2.4:1.0-port0
-  - baudrate: 115200
+  - baudrate: 921600
   - logfilename: zynq-zc706-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
   - jtag_cable_id: '210251A554E1'
