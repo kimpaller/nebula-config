@@ -29,6 +29,7 @@ vc707_fmcomms2-3:
   - logfilename: vc707-fmcomms3.log
   jtag-config:
   - jtag_cable_id: '210203A25426A'
+  - jtag_cpu_target_name: 'xc*'
 kcu105_fmcdaq2:
   board-config:
   - board-name: kcu105_fmcdaq2
