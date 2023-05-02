@@ -30,9 +30,9 @@ vc707_fmcomms2-3:
   jtag-config:
     - jtag_cable_id: "210203A25426A"
     - jtag_cpu_target_name: "xc*"
-zc706_adrv9371:
+zynq-zc706-adv7511-adrv9371:
   board-config:
-    - board-name: zc706_adrv9371
+    - board-name: zynq-zc706-adv7511-adrv9371
     - monitoring-interface: uart
     - allow-jtag: True
     - no-os-project: adrv9371
