@@ -35,15 +35,16 @@ zynq-zc706-adv7511-adrv9371:
     - board-name: zynq-zc706-adv7511-adrv9371
     - monitoring-interface: uart
     - allow-jtag: True
-    - no-os-project: adrv9371
+    - no-os-project: ad9371
     - example: iio
   downloader-config:
     - hdl_folder: adrv9371x_zc706
   driver-config:
     - iio_device_names:
-        - ad9361-phy
-        - cf-ad9361-dds-core-lpc
-        - cf-ad9361-lpc
+        - ad9371-phy
+        - axi-ad9371-rx-obs-hpc
+        - axi-ad9371-tx-hpc
+        - axi-ad9371-rx-hpc
   netbox-config:
     - netbox_server: 10.116.171.86
     - netbox_server_port: 8000
