@@ -118,7 +118,7 @@ max78000_adt7420:
     - baudrate: 115200
     - logfilename: max78000_adt7420.log
   jtag-config:
-    - jtag_cable_id: "044400013fe9033700000000000000000000000097969906"
+    - jtag_cable_id: "044400011896038d00000000000000000000000097969906"
 kcu105_fmcdaq2:
   board-config:
     - board-name: kcu105_fmcdaq2
