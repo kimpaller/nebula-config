@@ -99,7 +99,7 @@ max78000_adt7420:
     - allow-jtag: True
     - no-os-project: adt7420-pmdz
     - platform: maxim
-    - example: iio_example_max78000
+    - example: dummy_example_max78000
   driver-config:
     - iio_device_names:
         - ad9371-phy
