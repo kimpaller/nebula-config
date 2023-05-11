@@ -132,7 +132,7 @@ max78000_adt7420:
     - dutip: 192.168.10.117
     - dhcp: True
   uart-config:
-    - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:6.1.3:1.1
+    - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:6.2.2:1.1
     - baudrate: 57600
     - logfilename: max78000_adt7420.log
   jtag-config:
