@@ -132,11 +132,11 @@ max78000_adt7420:
     - dutip: 192.168.10.117
     - dhcp: True
   uart-config:
-    - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:5:1.1
+    - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:6.1.3:1.1
     - baudrate: 57600
     - logfilename: max78000_adt7420.log
   jtag-config:
-    - jtag_cable_id: "044400013fe9033700000000000000000000000097969906"
+    - jtag_cable_id: "044400011896038d00000000000000000000000097969906"
 aducm3029_adxrs290:
   board-config:
     - board-name: aducm3029_adxrs290
