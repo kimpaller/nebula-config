@@ -1,0 +1,34 @@
+rpi4-ad-fxtof1-ebz:
+  board-config:
+    - board-name: rpi4-ad-fxtof1-ebz
+    - carrier: RPI4
+    - daughter: AD-FXTOF1-EBZ
+    - monitoring-interface: NA
+  network-config:
+    - dutip: 192.168.10.10
+  uart-config:
+    - address: NA
+    - baudrate: 115200
+    - logfilename: rpi4-ad-fxtof1-ebz.log
+  pdu-config:
+    - pdu_type: cyberpower
+    - pduip: 192.168.10.2
+    - outlet: 8
+    - username: tof-pdu
+    - password: analog
+  usbmux-config:
+    - search_path: /dev/usb-sd-mux/
+    - target_mux: id-000000001244
+jetson-nano-ad-fxtof1-ebz:
+  board-config:
+    - board-name: jetson-nano-ad-fxtof1-ebz
+    - carrier: JETSON-NANO
+    - daughter: AD-FXTOF1-EBZ
+  pdu-config:
+    - pdu_type: cyberpower
+    - pduip: 192.168.10.20
+    - outlet: '7'
+    - username: tof-pdu
+    - password: analog
+  uart-config:
+    - logfilename: jetson-nano-ad-fxtof1-ebz.log
