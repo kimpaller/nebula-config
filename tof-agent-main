@@ -12,7 +12,7 @@ rpi4-ad-fxtof1-ebz:
     - logfilename: rpi4-ad-fxtof1-ebz.log
   pdu-config:
     - pdu_type: cyberpower
-    - pduip: 192.168.10.2
+    - pduip: 192.168.10.20
     - outlet: 8
     - username: tof-pdu
     - password: analog
@@ -24,6 +24,8 @@ jetson-nano-ad-fxtof1-ebz:
     - board-name: jetson-nano-ad-fxtof1-ebz
     - carrier: JETSON-NANO
     - daughter: AD-FXTOF1-EBZ
+  network-config:
+    - dutip: 192.168.10.11
   pdu-config:
     - pdu_type: cyberpower
     - pduip: 192.168.10.20
