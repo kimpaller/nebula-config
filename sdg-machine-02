@@ -156,7 +156,7 @@ aducm3029_adxrs290:
     - dutip: 192.168.10.117
     - dhcp: True
   uart-config:
-    - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.1
+    - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:5:1.1
     - baudrate: 57600
     - logfilename: aducm3029_adxrs290.log
   jtag-config:
