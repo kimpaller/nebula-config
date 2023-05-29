@@ -25,7 +25,7 @@ jetson-nano-ad-fxtof1-ebz:
     - carrier: JETSON-NANO
     - daughter: AD-FXTOF1-EBZ
   network-config:
-    - dutip: 192.168.10.11
+    - dutip: 192.168.10.51
   pdu-config:
     - pdu_type: cyberpower
     - pduip: 192.168.10.20
@@ -34,3 +34,18 @@ jetson-nano-ad-fxtof1-ebz:
     - password: analog
   uart-config:
     - logfilename: jetson-nano-ad-fxtof1-ebz.log
+smart-cam:
+  board-config:
+    - board-name: smart-cam
+    - carrier: smart-cam
+    - daughter: SMART-CAM
+  network-config:
+    - dutip: 192.168.10.52
+  pdu-config:
+    - pdu_type: cyberpower
+    - pduip: 192.168.10.20
+    - outlet: '6'
+    - username: tof-pdu
+    - password: analog
+  uart-config:
+    - logfilename: smart-cam.log
