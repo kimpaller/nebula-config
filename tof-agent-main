@@ -5,6 +5,7 @@ rpi4-ad-fxtof1-ebz:
     - daughter: AD-FXTOF1-EBZ
     - monitoring-interface: NA
   network-config:
+    - dutusername: analog
     - dutip: 192.168.10.10
   uart-config:
     - address: NA
@@ -25,6 +26,7 @@ jetson-nano-ad-fxtof1-ebz:
     - carrier: JETSON-NANO
     - daughter: AD-FXTOF1-EBZ
   network-config:
+    - dutusername: analog
     - dutip: 192.168.10.51
   pdu-config:
     - pdu_type: cyberpower
