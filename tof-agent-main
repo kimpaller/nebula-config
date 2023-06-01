@@ -5,8 +5,9 @@ rpi4-ad-fxtof1-ebz:
     - daughter: AD-FXTOF1-EBZ
     - monitoring-interface: NA
   network-config:
-    - dutusername: analog
-    - dutip: 192.168.10.10
+    - dutusername: pi
+    - dutpassword: raspberry
+    - dutip: 192.168.10.50
   uart-config:
     - address: NA
     - baudrate: 115200
