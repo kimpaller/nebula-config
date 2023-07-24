@@ -36,6 +36,9 @@ jetson-nano-ad-fxtof1-ebz:
     - password: analog
   uart-config:
     - logfilename: jetson-nano-ad-fxtof1-ebz.log
+  usbmux-config:
+    - search_path: /dev/usb-sd-mux/
+    - target_mux: id-000000001260
 smart-cam:
   board-config:
     - board-name: smart-cam
