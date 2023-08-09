@@ -27,6 +27,8 @@ jetson-nano-ad-fxtof1-ebz:
     - carrier: JETSON-NANO
     - daughter: AD-FXTOF1-EBZ
   network-config:
+    - dutusername: analog
+    - dutpassword: analog
     - dutip: 192.168.10.51
   pdu-config:
     - pdu_type: cyberpower
