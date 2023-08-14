@@ -19,3 +19,12 @@ rpi4-ad-fxtof1-ebz:
   usbmux-config:
     - search_path: /dev/usb-sd-mux/
     - target_mux: id-000000001244
+smart-cam:
+  board-config:
+    - board-name: smart-cam
+    - carrier: smart-cam
+    - daughter: SMART-CAM
+  network-config:
+    - dutip: 192.168.10.181
+  uart-config:
+    - logfilename: smart-cam.log
