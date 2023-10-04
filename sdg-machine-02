@@ -70,12 +70,13 @@ max32650_adxl355:
     - board-name: max32650_adxl355
     - monitoring-interface: uart
     - allow-jtag: True
-    - no-os-project: eval-adxl355-pmdz
-    - platform: maxim
-    - example: iio_example_max32650_adxl355
+    - example: iio_example
   driver-config:
     - iio_device_names:
         - adxl355
+  downloader-config:
+    - no_os_project: eval-adxl355-pmdz
+    - platform: Maxim
   netbox-config:
     - netbox_server: 10.116.171.86
     - netbox_server_port: 8000
