@@ -105,7 +105,7 @@ zynq-zed-adv7511-ad7768-4-axi-adc:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 	cf_axi_adc
+    - cf_axi_adc
   network-config:
   - dutip: 192.168.10.102
   - dhcp: False
