@@ -258,7 +258,7 @@ zynq-zc706-adv7511-fmcomms11:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-fmcomms11.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad6676-fmc:
   board-config:
@@ -280,7 +280,7 @@ zynq-zc706-adv7511-ad6676-fmc:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad6676-fmc.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9081:
   board-config:
@@ -302,7 +302,7 @@ zynq-zc706-adv7511-ad9081:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9081.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9082:
   board-config:
@@ -324,7 +324,7 @@ zynq-zc706-adv7511-ad9082:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9082.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9172-fmc-ebz:
   board-config:
@@ -346,7 +346,7 @@ zynq-zc706-adv7511-ad9172-fmc-ebz:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9172-fmc-ebz.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9361-fmcomms2-3:
   board-config:
@@ -371,7 +371,7 @@ zynq-zc706-adv7511-ad9361-fmcomms2-3:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9361-fmcomms4:
   board-config:
@@ -396,7 +396,7 @@ zynq-zc706-adv7511-ad9361-fmcomms4:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9361-fmcomms4.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9625-fmcadc3:
   board-config:
@@ -418,7 +418,7 @@ zynq-zc706-adv7511-ad9625-fmcadc3:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9625-fmcadc3.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9008-1:
   board-config:
@@ -440,7 +440,7 @@ zynq-zc706-adv7511-adrv9008-1:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9008-1.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9008-2:
   board-config:
@@ -462,7 +462,7 @@ zynq-zc706-adv7511-adrv9008-2:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9008-2.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9009:
   board-config:
@@ -484,7 +484,7 @@ zynq-zc706-adv7511-adrv9009:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9009.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9371:
   board-config:
@@ -506,7 +506,7 @@ zynq-zc706-adv7511-adrv9371:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9371.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9375:
   board-config:
@@ -528,7 +528,7 @@ zynq-zc706-adv7511-adrv9375:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9375.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-fmcdaq3-revC:
   board-config:
@@ -550,7 +550,7 @@ zynq-zc706-adv7511-fmcdaq3-revC:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-fmcdaq3-revC.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-fmcjesdadc1:
   board-config:
@@ -572,5 +572,5 @@ zynq-zc706-adv7511-fmcjesdadc1:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-fmcjesdadc1.log
   jtag-config:
-  - jtag_cable_id: '210251839884'
+  - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
