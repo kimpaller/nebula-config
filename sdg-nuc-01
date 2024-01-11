@@ -574,3 +574,323 @@ zynq-zc706-adv7511-fmcjesdadc1:
   jtag-config:
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9082-m4-l8:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9082-m4-l8
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - x
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9082-m4-l8.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9083-fmc-ebz:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9083-fmc-ebz
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - x
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9083-fmc-ebz.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9361-fmcomms5:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms5
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - ad7291
+    - ad9361-phy
+    - ad9361-phy-B
+    - cf-ad9361-dds-core-lpc
+    - cf-ad9361-dds-core-B
+    - cf-ad9361-A
+    - cf-ad9361-B
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms5.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms2-3
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - ad7291
+    - ad9361-phy
+    - cf-ad9361-dds-core-lpc
+    - cf-ad9361-lpc
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms2-3.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9361-fmcomms4:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms4
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - ad7291
+    - ad9361-phy
+    - cf-ad9361-dds-core-lpc
+    - cf-ad9361-lpc
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms4.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9695:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9695
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9695.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-ad9783:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-ad9783
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-ad9783.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-adrv9008-1:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9008-1
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-adrv9008-1.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-adrv9008-2:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9008-2
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-adrv9008-2.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-adrv9009:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9009
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-adrv9009.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-adrv9009-fmcomms8:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9009-fmcomms8
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-adrv9009-fmcomms8.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-adrv9371:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9371
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-adrv9371.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-adrv9375:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-adrv9375
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-adrv9375.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
+zynqmp-zcu102-rev10-fmcdaq2:
+  board-config:
+  - board-name: zynqmp-zcu102-rev10-fmcdaq2
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - 'x'
+  network-config:
+  - dutip: 192.168.10.106
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 6
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.3:1.0-port0
+  - baudrate: 115200
+  - logfilename: zynqmp-zcu102-rev10-fmcdaq2.log
+  jtag-config:
+  - jtag_cable_id: '210308A5F5D8'
+  - jtag_cpu_target_name: 'ARM*#0'
