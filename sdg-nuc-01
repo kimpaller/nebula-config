@@ -267,7 +267,7 @@ zynq-zc706-adv7511-ad6676-fmc:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - ad6676
+    - axi-ad6676-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -289,7 +289,8 @@ zynq-zc706-adv7511-ad9081:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - ad9081
+    - axi-ad9081-rx-hpc
+    - axi-ad9081-tx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -311,7 +312,8 @@ zynq-zc706-adv7511-ad9082:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - ad9081
+    - axi-ad9081-rx-hpc
+    - axi-ad9081-tx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -333,7 +335,7 @@ zynq-zc706-adv7511-ad9172-fmc-ebz:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - ad9081
+    - axi-ad9172-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -405,7 +407,8 @@ zynq-zc706-adv7511-ad9625-fmcadc3:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ada4961
+    - axi-ad9625-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -427,7 +430,10 @@ zynq-zc706-adv7511-adrv9008-1:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528-1
+    - ad7291
+    - adrv9009-phy
+    - axi-adrv9009-rx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -449,7 +455,11 @@ zynq-zc706-adv7511-adrv9008-2:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528-1
+    - ad7291
+    - adrv9009-phy
+    - axi-adrv9009-rx-obs-hpc
+    - axi-adrv9009-tx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -471,7 +481,12 @@ zynq-zc706-adv7511-adrv9009:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528-1
+    - ad7291
+    - adrv9009-phy
+    - axi-adrv9009-rx-hpc
+    - axi-adrv9009-rx-obs-hpc
+    - axi-adrv9009-tx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -493,7 +508,12 @@ zynq-zc706-adv7511-adrv9371:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528-1
+    - ad7291
+    - ad9371-phy
+    - axi-ad9371-rx-hpc
+    - axi-ad9371-rx-obs-hpc
+    - axi-ad9371-tx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -515,7 +535,12 @@ zynq-zc706-adv7511-adrv9375:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528-1
+    - ad7291
+    - ad9371-phy
+    - axi-ad9371-rx-hpc
+    - axi-ad9371-rx-obs-hpc
+    - axi-ad9371-tx-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -537,7 +562,10 @@ zynq-zc706-adv7511-fmcdaq3-revC:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528
+    - ad7291
+    - axi-ad9680-hpc
+    - axi-ad9152-hpc
   network-config:
   - dutip: 192.168.10.101
   - dhcp: False
@@ -581,7 +609,9 @@ zynqmp-zcu102-rev10-ad9082-m4-l8:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - hmc7044
+    - axi-ad9081-rx-hpc
+    - axi-ad9081-tx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -603,7 +633,8 @@ zynqmp-zcu102-rev10-ad9083-fmc-ebz:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - x
+    - ad9528
+    - axi-ad9083-rx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -725,7 +756,8 @@ zynqmp-zcu102-rev10-ad9783:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9783
+    - ad9783_core_dds
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -747,7 +779,10 @@ zynqmp-zcu102-rev10-adrv9008-1:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9528-1
+    - ad7291
+    - adrv9009-phy
+    - axi-adrv9009-rx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -769,7 +804,11 @@ zynqmp-zcu102-rev10-adrv9008-2:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9528-1
+    - ad7291
+    - adrv9009-phy
+    - axi-adrv9009-rx-obs-hpc
+    - axi-adrv9009-tx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -791,7 +830,12 @@ zynqmp-zcu102-rev10-adrv9009:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9528-1
+    - ad7291
+    - adrv9009-phy
+    - axi-adrv9009-rx-hpc
+    - axi-adrv9009-rx-obs-hpc
+    - axi-adrv9009-tx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -813,7 +857,13 @@ zynqmp-zcu102-rev10-adrv9009-fmcomms8:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - hmc7044-fmc
+    - ad7291
+    - adrv9009-phy-c
+    - adrv9009-phy-d
+    - axi-adrv9009-rx-hpc
+    - axi-adrv9009-rx-obs-hpc
+    - axi-adrv9009-tx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -835,7 +885,12 @@ zynqmp-zcu102-rev10-adrv9371:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9528-1
+    - ad7291
+    - ad9371-phy
+    - axi-ad9371-rx-hpc
+    - axi-ad9371-rx-obs-hpc
+    - axi-ad9371-tx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -857,7 +912,12 @@ zynqmp-zcu102-rev10-adrv9375:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9528-1
+    - ad7291
+    - ad9371-phy
+    - axi-ad9371-rx-hpc
+    - axi-ad9371-rx-obs-hpc
+    - axi-ad9371-tx-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
@@ -879,7 +939,10 @@ zynqmp-zcu102-rev10-fmcdaq2:
   - allow-jtag: True
   driver-config:
   - iio_device_names:
-    - 'x'
+    - ad9523-1
+    - ad7291
+    - axi-ad9144-hpc
+    - axi-ad9680-hpc
   network-config:
   - dutip: 192.168.10.106
   - dhcp: False
