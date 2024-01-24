@@ -625,7 +625,7 @@ zynqmp-zcu102-rev10-ad9082-m4-l8:
   - logfilename: zynqmp-zcu102-rev10-ad9082-m4-l8.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9083-fmc-ebz:
   board-config:
   - board-name: zynqmp-zcu102-rev10-ad9083-fmc-ebz
@@ -648,7 +648,7 @@ zynqmp-zcu102-rev10-ad9083-fmc-ebz:
   - logfilename: zynqmp-zcu102-rev10-ad9083-fmc-ebz.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9361-fmcomms5:
   board-config:
   - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms5
@@ -676,7 +676,7 @@ zynqmp-zcu102-rev10-ad9361-fmcomms5:
   - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms5.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
   board-config:
   - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms2-3
@@ -701,7 +701,7 @@ zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
   - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms2-3.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9361-fmcomms4:
   board-config:
   - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms4
@@ -726,7 +726,7 @@ zynqmp-zcu102-rev10-ad9361-fmcomms4:
   - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms4.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9695:
   board-config:
   - board-name: zynqmp-zcu102-rev10-ad9695
@@ -748,7 +748,7 @@ zynqmp-zcu102-rev10-ad9695:
   - logfilename: zynqmp-zcu102-rev10-ad9695.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9783:
   board-config:
   - board-name: zynqmp-zcu102-rev10-ad9783
@@ -771,7 +771,7 @@ zynqmp-zcu102-rev10-ad9783:
   - logfilename: zynqmp-zcu102-rev10-ad9783.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9008-1:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9008-1
@@ -796,7 +796,7 @@ zynqmp-zcu102-rev10-adrv9008-1:
   - logfilename: zynqmp-zcu102-rev10-adrv9008-1.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9008-2:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9008-2
@@ -822,7 +822,7 @@ zynqmp-zcu102-rev10-adrv9008-2:
   - logfilename: zynqmp-zcu102-rev10-adrv9008-2.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9009:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9009
@@ -849,7 +849,7 @@ zynqmp-zcu102-rev10-adrv9009:
   - logfilename: zynqmp-zcu102-rev10-adrv9009.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9009-fmcomms8:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9009-fmcomms8
@@ -877,7 +877,7 @@ zynqmp-zcu102-rev10-adrv9009-fmcomms8:
   - logfilename: zynqmp-zcu102-rev10-adrv9009-fmcomms8.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9371:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9371
@@ -904,7 +904,7 @@ zynqmp-zcu102-rev10-adrv9371:
   - logfilename: zynqmp-zcu102-rev10-adrv9371.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9375:
   board-config:
   - board-name: zynqmp-zcu102-rev10-adrv9375
@@ -931,7 +931,7 @@ zynqmp-zcu102-rev10-adrv9375:
   - logfilename: zynqmp-zcu102-rev10-adrv9375.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-fmcdaq2:
   board-config:
   - board-name: zynqmp-zcu102-rev10-fmcdaq2
@@ -956,4 +956,4 @@ zynqmp-zcu102-rev10-fmcdaq2:
   - logfilename: zynqmp-zcu102-rev10-fmcdaq2.log
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
-  - jtag_cpu_target_name: 'ARM*#0'
+  - jtag_cpu_target_name: 'Cortex-A53*#0'
