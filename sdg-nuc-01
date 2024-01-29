@@ -51,9 +51,9 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   jtag-config:
   - jtag_cable_id: '10203AB8E47A'
   - jtag_cpu_target_name: 'ARM*#0'
-zynq-zc702-adv7511-ad9361-fmcomms4:
+zynq-zc702-adv7511-ad9364-fmcomms4:
   board-config:
-  - board-name: zynq-zc702-adv7511-ad9361-fmcomms4
+  - board-name: zynq-zc702-adv7511-ad9364-fmcomms4
   - monitoring-interface: uart
   - allow-jtag: True
   driver-config:
@@ -375,9 +375,9 @@ zynq-zc706-adv7511-ad9361-fmcomms2-3:
   jtag-config:
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
-zynq-zc706-adv7511-ad9361-fmcomms4:
+zynq-zc706-adv7511-ad9364-fmcomms4:
   board-config:
-  - board-name: zynq-zc706-adv7511-ad9361-fmcomms4
+  - board-name: zynq-zc706-adv7511-ad9364-fmcomms4
   - monitoring-interface: uart
   - allow-jtag: True
   driver-config:
@@ -702,9 +702,9 @@ zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
   jtag-config:
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
-zynqmp-zcu102-rev10-ad9361-fmcomms4:
+zynqmp-zcu102-rev10-ad9364-fmcomms4:
   board-config:
-  - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms4
+  - board-name: zynqmp-zcu102-rev10-ad9364-fmcomms4
   - monitoring-interface: uart
   - allow-jtag: True
   driver-config:
