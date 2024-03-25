@@ -24,6 +24,7 @@ zynq-zc702-adv7511-ad9361-fmcomms5:
   - baudrate: 115200
   - logfilename: zynq-zc702-adv7511-ad9361-fmcomms5.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '10203AB8E47A'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc702-adv7511-ad9361-fmcomms2-3:
@@ -49,6 +50,7 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   - baudrate: 115200
   - logfilename: zynq-zc702-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '10203AB8E47A'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc702-adv7511-ad9364-fmcomms4:
@@ -74,6 +76,7 @@ zynq-zc702-adv7511-ad9364-fmcomms4:
   - baudrate: 115200
   - logfilename: zynq-zc702-adv7511-ad9361-fmcomms4.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '10203AB8E47A'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad7768-1-evb:
@@ -96,6 +99,7 @@ zynq-zed-adv7511-ad7768-1-evb:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-ad7768-1-evb.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad7768-4-axi-adc:
@@ -118,6 +122,7 @@ zynq-zed-adv7511-ad7768-4-axi-adc:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-ad7768-4-axi-adc.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad4020:
@@ -140,6 +145,7 @@ zynq-zed-adv7511-ad4020:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-ad4020.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad9361-fmcomms2-3:
@@ -165,6 +171,7 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad9467-fmc-250ebz:
@@ -187,6 +194,7 @@ zynq-zed-adv7511-ad9467-fmc-250ebz:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-ad9467-fmc-250ebz.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-adaq8092:
@@ -209,6 +217,7 @@ zynq-zed-adv7511-adaq8092:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-adaq8092.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-cn0577:
@@ -231,6 +240,7 @@ zynq-zed-adv7511-cn0577:
   - baudrate: 115200
   - logfilename: zynq-zed-adv7511-cn0577.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-fmcomms11:
@@ -258,6 +268,7 @@ zynq-zc706-adv7511-fmcomms11:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-fmcomms11.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad6676-fmc:
@@ -280,6 +291,7 @@ zynq-zc706-adv7511-ad6676-fmc:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad6676-fmc.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9081:
@@ -303,6 +315,7 @@ zynq-zc706-adv7511-ad9081:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9081.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9082:
@@ -326,6 +339,7 @@ zynq-zc706-adv7511-ad9082:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9082.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9172-fmc-ebz:
@@ -348,6 +362,7 @@ zynq-zc706-adv7511-ad9172-fmc-ebz:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9172-fmc-ebz.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9361-fmcomms2-3:
@@ -373,6 +388,7 @@ zynq-zc706-adv7511-ad9361-fmcomms2-3:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9361-fmcomms2-3.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9364-fmcomms4:
@@ -398,6 +414,7 @@ zynq-zc706-adv7511-ad9364-fmcomms4:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9361-fmcomms4.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-ad9625-fmcadc3:
@@ -421,6 +438,7 @@ zynq-zc706-adv7511-ad9625-fmcadc3:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-ad9625-fmcadc3.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9008-1:
@@ -446,6 +464,7 @@ zynq-zc706-adv7511-adrv9008-1:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9008-1.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9008-2:
@@ -472,6 +491,7 @@ zynq-zc706-adv7511-adrv9008-2:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9008-2.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9009:
@@ -499,6 +519,7 @@ zynq-zc706-adv7511-adrv9009:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9009.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9371:
@@ -526,6 +547,7 @@ zynq-zc706-adv7511-adrv9371:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9371.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-adrv9375:
@@ -553,6 +575,7 @@ zynq-zc706-adv7511-adrv9375:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-adrv9375.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-fmcdaq3-revC:
@@ -578,6 +601,7 @@ zynq-zc706-adv7511-fmcdaq3-revC:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-fmcdaq3-revC.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynq-zc706-adv7511-fmcjesdadc1:
@@ -600,6 +624,7 @@ zynq-zc706-adv7511-fmcjesdadc1:
   - baudrate: 115200
   - logfilename: zynq-zc706-adv7511-fmcjesdadc1.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210251A554E1'
   - jtag_cpu_target_name: 'ARM*#0'
 zynqmp-zcu102-rev10-ad9082-m4-l8:
@@ -624,6 +649,7 @@ zynqmp-zcu102-rev10-ad9082-m4-l8:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9082-m4-l8.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9083-fmc-ebz:
@@ -647,6 +673,7 @@ zynqmp-zcu102-rev10-ad9083-fmc-ebz:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9083-fmc-ebz.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9361-fmcomms5:
@@ -675,6 +702,7 @@ zynqmp-zcu102-rev10-ad9361-fmcomms5:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms5.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
@@ -700,6 +728,7 @@ zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms2-3.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9364-fmcomms4:
@@ -725,6 +754,7 @@ zynqmp-zcu102-rev10-ad9364-fmcomms4:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9361-fmcomms4.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9695:
@@ -747,6 +777,7 @@ zynqmp-zcu102-rev10-ad9695:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9695.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-ad9783:
@@ -770,6 +801,7 @@ zynqmp-zcu102-rev10-ad9783:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-ad9783.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9008-1:
@@ -795,6 +827,7 @@ zynqmp-zcu102-rev10-adrv9008-1:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-adrv9008-1.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9008-2:
@@ -821,6 +854,7 @@ zynqmp-zcu102-rev10-adrv9008-2:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-adrv9008-2.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9009:
@@ -848,6 +882,7 @@ zynqmp-zcu102-rev10-adrv9009:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-adrv9009.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9009-fmcomms8:
@@ -876,6 +911,7 @@ zynqmp-zcu102-rev10-adrv9009-fmcomms8:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-adrv9009-fmcomms8.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9371:
@@ -903,6 +939,7 @@ zynqmp-zcu102-rev10-adrv9371:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-adrv9371.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-adrv9375:
@@ -930,6 +967,7 @@ zynqmp-zcu102-rev10-adrv9375:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-adrv9375.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
 zynqmp-zcu102-rev10-fmcdaq2:
@@ -955,5 +993,6 @@ zynqmp-zcu102-rev10-fmcdaq2:
   - baudrate: 115200
   - logfilename: zynqmp-zcu102-rev10-fmcdaq2.log
   jtag-config:
+  - vivado_version: '2021.2'
   - jtag_cable_id: '210308A5F5D8'
   - jtag_cpu_target_name: 'Cortex-A53*#0'
