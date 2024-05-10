@@ -102,6 +102,29 @@ zynq-zed-adv7511-ad7768-1-evb:
   - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
+zynq-zed-adv7511-ad4630-24:
+  board-config:
+  - board-name: zynq-zed-adv7511-ad4630-24
+  - monitoring-interface: uart
+  - allow-jtag: True
+  driver-config:
+  - iio_device_names:
+    - ad4630
+  network-config:
+  - dutip: 192.168.10.102
+  - dhcp: False
+  pdu-config:
+  - pdu_type: cyberpower
+  - pduip: 192.168.10.22
+  - outlet: 2
+  uart-config:
+  - address: /dev/serial/by-path/pci-0000:00:14.0-usb-0:8.1.4:1.0
+  - baudrate: 115200
+  - logfilename: zynq-zed-adv7511-ad4630-24.log
+  jtag-config:
+  - vivado_version: '2021.2'
+  - jtag_cable_id: '210248B4AC86'
+  - jtag_cpu_target_name: 'ARM*#0'
 zynq-zed-adv7511-ad7768-4-axi-adc:
   board-config:
   - board-name: zynq-zed-adv7511-ad7768-4-axi-adc
