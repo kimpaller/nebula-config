@@ -3,6 +3,8 @@ zynq-zc702-adv7511-ad9361-fmcomms5:
   - board-name: zynq-zc702-adv7511-ad9361-fmcomms5
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad9361-fmcomms5
   driver-config:
   - iio_device_names:
     - ad7291
@@ -32,6 +34,9 @@ zynq-zc702-adv7511-ad9361-fmcomms2-3:
   - board-name: zynq-zc702-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynq-zc702-adv7511-ad9361-fmcomms2-3
   driver-config:
   - iio_device_names:
     - ad7291
@@ -58,6 +63,9 @@ zynq-zc702-adv7511-ad9364-fmcomms4:
   - board-name: zynq-zc702-adv7511-ad9364-fmcomms4
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynq-zc702-adv7511-ad9361-fmcomms4
   driver-config:
   - iio_device_names:
     - ad7291
@@ -84,6 +92,8 @@ zynq-zed-adv7511-ad7768-1-evb:
   - board-name: zynq-zed-adv7511-ad7768-1-evb
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad7768-1-evb
   driver-config:
   - iio_device_names:
     - ad7768-1
@@ -107,9 +117,11 @@ zynq-zed-adv7511-ad4630-24:
   - board-name: zynq-zed-adv7511-ad4630-24
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad4630-24
   driver-config:
   - iio_device_names:
-    - ad4630
+    - ad4630-24
   network-config:
   - dutip: 192.168.10.102
   - dhcp: False
@@ -130,6 +142,8 @@ zynq-zed-adv7511-ad7768-4-axi-adc:
   - board-name: zynq-zed-adv7511-ad7768-4-axi-adc
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad7768-4-axi-adc
   driver-config:
   - iio_device_names:
     - cf_axi_adc
@@ -153,6 +167,8 @@ zynq-zed-adv7511-ad7768-axi-adc:
   - board-name: zynq-zed-adv7511-ad7768-axi-adc
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad7768-axi-adc
   driver-config:
   - iio_device_names:
     - cf_axi_adc
@@ -171,11 +187,14 @@ zynq-zed-adv7511-ad7768-axi-adc:
   - vivado_version: '2021.2'
   - jtag_cable_id: '210248B4AC86'
   - jtag_cpu_target_name: 'ARM*#0'
-zynq-zed-adv7511-ad4020:
+zynq-zed-adv7511-ad4003:
   board-config:
-  - board-name: zynq-zed-adv7511-ad4020
+  - board-name: zynq-zed-adv7511-ad4003
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: pulsar_adc_zed
+  - devicetree_subfolder: zynq-zed-adv7511-ad4003
   driver-config:
   - iio_device_names:
     - ad4020
@@ -199,6 +218,9 @@ zynq-zed-adv7511-ad9361-fmcomms2-3:
   - board-name: zynq-zed-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynq-zed-adv7511-ad9361-fmcomms2-3
   driver-config:
   - iio_device_names:
     - ad7291
@@ -225,6 +247,8 @@ zynq-zed-adv7511-ad9467-fmc-250ebz:
   - board-name: zynq-zed-adv7511-ad9467-fmc-250ebz
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-ad9467-fmc-250ebz
   driver-config:
   - iio_device_names:
     - ad9467
@@ -248,6 +272,8 @@ zynq-zed-adv7511-adaq8092:
   - board-name: zynq-zed-adv7511-adaq8092
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-adaq8092
   driver-config:
   - iio_device_names:
     - x
@@ -271,6 +297,8 @@ zynq-zed-adv7511-cn0577:
   - board-name: zynq-zed-adv7511-cn0577
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zed-adv7511-cn0577
   driver-config:
   - iio_device_names:
     - x
@@ -294,6 +322,8 @@ zynq-zc706-adv7511-fmcomms11:
   - board-name: zynq-zc706-adv7511-fmcomms11
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-fmcomms11
   driver-config:
   - iio_device_names:
     - ad7291
@@ -322,6 +352,8 @@ zynq-zc706-adv7511-ad6676-fmc:
   - board-name: zynq-zc706-adv7511-ad6676-fmc
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad6676-fmc
   driver-config:
   - iio_device_names:
     - axi-ad6676-hpc
@@ -345,6 +377,8 @@ zynq-zc706-adv7511-ad9081:
   - board-name: zynq-zc706-adv7511-ad9081
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad9081
   driver-config:
   - iio_device_names:
     - axi-ad9081-rx-hpc
@@ -369,6 +403,8 @@ zynq-zc706-adv7511-ad9082:
   - board-name: zynq-zc706-adv7511-ad9082
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad9082
   driver-config:
   - iio_device_names:
     - axi-ad9081-rx-hpc
@@ -393,6 +429,8 @@ zynq-zc706-adv7511-ad9172-fmc-ebz:
   - board-name: zynq-zc706-adv7511-ad9172-fmc-ebz
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad9172-fmc-ebz
   driver-config:
   - iio_device_names:
     - axi-ad9172-hpc
@@ -416,6 +454,9 @@ zynq-zc706-adv7511-ad9361-fmcomms2-3:
   - board-name: zynq-zc706-adv7511-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynq-zc706-adv7511-ad9361-fmcomms2-3
   driver-config:
   - iio_device_names:
     - ad7291
@@ -442,6 +483,9 @@ zynq-zc706-adv7511-ad9364-fmcomms4:
   - board-name: zynq-zc706-adv7511-ad9364-fmcomms4
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynq-zc706-adv7511-ad9361-fmcomms4
   driver-config:
   - iio_device_names:
     - ad7291
@@ -492,6 +536,9 @@ zynq-zc706-adv7511-adrv9008-1:
   - board-name: zynq-zc706-adv7511-adrv9008-1
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-adrv9008-1-2
+  - devicetree_subfolder: zynq-zc706-adv7511-adrv9008-1
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -518,6 +565,9 @@ zynq-zc706-adv7511-adrv9008-2:
   - board-name: zynq-zc706-adv7511-adrv9008-2
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-adrv9008-1-2
+  - devicetree_subfolder: zynq-zc706-adv7511-adrv9008-2
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -545,6 +595,8 @@ zynq-zc706-adv7511-adrv9009:
   - board-name: zynq-zc706-adv7511-adrv9009
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-adrv9009
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -573,6 +625,9 @@ zynq-zc706-adv7511-adrv9371:
   - board-name: zynq-zc706-adv7511-adrv9371
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-adrv937x
+  - devicetree_subfolder: zynq-zc706-adv7511-adrv9371
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -601,6 +656,9 @@ zynq-zc706-adv7511-adrv9375:
   - board-name: zynq-zc706-adv7511-adrv9375
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-adrv937x
+  - devicetree_subfolder: zynq-zc706-adv7511-adrv9375
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -629,6 +687,8 @@ zynq-zc706-adv7511-fmcdaq3-revC:
   - board-name: zynq-zc706-adv7511-fmcdaq3-revC
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-fmcdaq3-revC
   driver-config:
   - iio_device_names:
     - ad9528
@@ -655,6 +715,8 @@ zynq-zc706-adv7511-fmcjesdadc1:
   - board-name: zynq-zc706-adv7511-fmcjesdadc1
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynq-zc706-adv7511-fmcjesdadc1
   driver-config:
   - iio_device_names:
     - x
@@ -678,6 +740,8 @@ zynqmp-zcu102-rev10-ad9082-m4-l8:
   - board-name: zynqmp-zcu102-rev10-ad9082-m4-l8
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad9082-m4-l8
   driver-config:
   - iio_device_names:
     - hmc7044
@@ -703,6 +767,8 @@ zynqmp-zcu102-rev10-ad9083-fmc-ebz:
   - board-name: zynqmp-zcu102-rev10-ad9083-fmc-ebz
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad9083-fmc-ebz
   driver-config:
   - iio_device_names:
     - ad9528
@@ -727,6 +793,8 @@ zynqmp-zcu102-rev10-ad9361-fmcomms5:
   - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms5
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad9361-fmcomms5
   driver-config:
   - iio_device_names:
     - ad7291
@@ -756,6 +824,9 @@ zynqmp-zcu102-rev10-ad9361-fmcomms2-3:
   - board-name: zynqmp-zcu102-rev10-ad9361-fmcomms2-3
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynqmp-zcu102-rev10-ad9361-fmcomms2-3
   driver-config:
   - iio_device_names:
     - ad7291
@@ -782,6 +853,9 @@ zynqmp-zcu102-rev10-ad9364-fmcomms4:
   - board-name: zynqmp-zcu102-rev10-ad9364-fmcomms4
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad936x-fmcomms2-3-4
+  - devicetree_subfolder: zynqmp-zcu102-rev10-ad9361-fmcomms4
   driver-config:
   - iio_device_names:
     - ad7291
@@ -808,6 +882,8 @@ zynqmp-zcu102-rev10-ad9695:
   - board-name: zynqmp-zcu102-rev10-ad9695
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad9695
   driver-config:
   - iio_device_names:
     - 'x'
@@ -831,6 +907,8 @@ zynqmp-zcu102-rev10-ad9783:
   - board-name: zynqmp-zcu102-rev10-ad9783
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-ad9783
   driver-config:
   - iio_device_names:
     - ad9783
@@ -855,6 +933,9 @@ zynqmp-zcu102-rev10-adrv9008-1:
   - board-name: zynqmp-zcu102-rev10-adrv9008-1
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9008-1-2
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9008-1
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -881,6 +962,9 @@ zynqmp-zcu102-rev10-adrv9008-2:
   - board-name: zynqmp-zcu102-rev10-adrv9008-2
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9008-1-2
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9008-2
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -908,6 +992,8 @@ zynqmp-zcu102-rev10-adrv9009:
   - board-name: zynqmp-zcu102-rev10-adrv9009
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9009
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -936,6 +1022,8 @@ zynqmp-zcu102-rev10-adrv9009-fmcomms8:
   - board-name: zynqmp-zcu102-rev10-adrv9009-fmcomms8
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv9009-fmcomms8
   driver-config:
   - iio_device_names:
     - hmc7044-fmc
@@ -965,6 +1053,9 @@ zynqmp-zcu102-rev10-adrv9371:
   - board-name: zynqmp-zcu102-rev10-adrv9371
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv937x
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9371
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -993,6 +1084,9 @@ zynqmp-zcu102-rev10-adrv9375:
   - board-name: zynqmp-zcu102-rev10-adrv9375
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-adrv937x
+  - devicetree_subfolder: zynqmp-zcu102-rev10-adrv9375
   driver-config:
   - iio_device_names:
     - ad9528-1
@@ -1021,6 +1115,8 @@ zynqmp-zcu102-rev10-fmcdaq2:
   - board-name: zynqmp-zcu102-rev10-fmcdaq2
   - monitoring-interface: uart
   - allow-jtag: True
+  downloader-config:
+  - reference_boot_folder: zynqmp-zcu102-rev10-fmcdaq2
   driver-config:
   - iio_device_names:
     - ad9523-1
