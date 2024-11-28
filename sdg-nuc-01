@@ -4,7 +4,7 @@ zynq-zc702-adv7511-ad9361-fmcomms5:
   - monitoring-interface: uart
   - allow-jtag: True
   downloader-config:
-  - reference_boot_folder: zynq-zc706-adv7511-ad9361-fmcomms5
+  - reference_boot_folder: zynq-zc702-adv7511-ad9361-fmcomms5
   driver-config:
   - iio_device_names:
     - ad7291
