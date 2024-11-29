@@ -65,7 +65,7 @@ zynq-zc702-adv7511-ad9364-fmcomms4:
   - allow-jtag: True
   downloader-config:
   - reference_boot_folder: zynq-zc702-adv7511-ad936x-fmcomms2-3-4
-  - devicetree_subfolder: zynq-zc702-adv7511-ad9361-fmcomms4
+  - devicetree_subfolder: zynq-zc702-adv7511-ad9364-fmcomms4
   driver-config:
   - iio_device_names:
     - ad7291
